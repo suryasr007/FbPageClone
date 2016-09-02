@@ -1,0 +1,240 @@
+/*style sheet for Template 2 */
+* {
+   margin: 0px;
+   padding: 0px;
+   
+}
+
+body{
+    font-family: Lucida Grande,sans-serif;
+    color: white;  
+}
+@font-face{
+   font-family: 'tahoma';
+   src:url('tahoma.woff') format('woff');
+   font-family: 'helvetica';
+   src:url('helvetica.woff') format('woff');
+   font-family: 'FreightSans Bold';
+   src:url('FreightSans Bold.woff') format('woff');
+}
+#layout1{
+  
+    background-color:#3b5998;
+    height:100px;
+    font-size:12px;
+    box-shadow:0px 0px 8px black;
+    margin-bottom: 10%;
+    overflow: hidden;
+    
+}
+#head-text a{
+    position:absolute;
+    top:3%;
+    left:11%;
+  
+   
+    
+}
+#fb1{
+   width:110%;
+}
+
+a:link{
+    color:white;
+    text-decoration:none;
+    }
+a.forgot:link{
+    font-family:Tahoma;
+    font-size:100%;
+    text-decoration:none;
+    color:#9DACCB; 
+    letter-spacing: 0;
+    font-weight:lighter;
+    position: absolute;
+    top:12%;
+    right:18.7%;
+}
+a.forgot:visited{
+   color:#9DACCB 
+}
+a.forgot:hover{
+    text-decoration: underline; 
+}
+#remember{
+    
+    font-size:100%;
+    text-decoration:none;
+    color:#9DACCB;
+    font-weight:lighter;
+    cursor: pointer;
+    position: absolute;
+    top:12%;
+    right:30.3%;
+}
+button.butn{
+    font-family:helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 11px;
+    
+    padding: 2px 6px 2px 6px;
+    
+    background-image: none;
+    background-color:#5B74A8;
+    
+    border-style:  solid;
+    border-color:#29447E #29447E #1A356E #29447E;
+    
+    color: white;
+    position: absolute;
+    height: 3%;
+    width:5%;
+    top:8.3%;
+    right:12%;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+    
+   
+}
+button.butn:hover{
+    cursor: pointer;
+    background-color:#9DACCB ;
+    color: white;
+}
+#usrname{
+    position: absolute;
+    
+    top:5.5%;
+    right:29.3%;
+    font-weight:lighter;
+}
+#pswrd{
+    position:absolute;
+    top:5.5%;
+    right:17.7%;
+    font-weight:lighter;
+}
+/*layout2 css*/
+.seeimg{
+    vertical-align:middle;
+    
+}
+#connect{
+    font-family:FreightSans Bold,Tahoma;
+    color:#333;
+    font-size:xx-large;
+    
+    position: absolute;
+    left:12%;
+    top:25%;
+}
+#firstimg{
+    position: absolute;
+    top:44%;
+    left:12.4%;
+    opacity: 0.6;
+}
+#secondimg{
+    position: absolute;
+    top:56%;
+    left: 12.4%;
+    opacity: 0.6;
+}
+#thirdimg{
+    position: absolute;
+    top:67%;
+    left:12.3%;
+    opacity: 0.6;
+}
+.img1txt{
+    font-family: Tahoma;
+    position: absolute;
+    top:45% ;
+    left:18%;
+    color: #333;
+}
+.img2txt{
+    font-family: Tahoma;   
+    position: absolute;
+    top:57.5% ;
+    left:18%;
+    color: #333;
+}
+.img3txt{
+    font-family: Tahoma;
+    position: absolute;
+    top:69% ;
+    left:18%;
+    color: #333;
+}
+#signuptext{
+    font-family:FreightSans Bold,Tahoma;
+    position: absolute;
+    top: 22%;
+    right:19%;
+    color: #333;
+    font-size: large;
+    font-weight: lighter;
+}
+#layout3{
+    font-family: Tahoma;
+    position: absolute;
+    top: 34%;
+    right:13%;
+    color:grey;
+}
+.firstname{
+    height:25px;
+    width:172px;
+    padding: 5px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    border-style: ridge;
+}
+.lastname{
+    height: 25px;   
+    width: 377px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    border-style: ridge;
+}
+h3{
+    font-family: Tahoma;
+    font-size:x-large;
+    color: black;
+}
+
+.slect{
+    height:25px;
+    color: black;
+}
+button.submitform{
+    color: white;
+    background-color: #67AE55;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    width: 170px;
+    height: 30px;
+    border-radius:5px;
+    border-style: none;
+    border-color: #67AE56;     
+}
+button.submitform:hover{
+    background-color: #A4E388;
+    cursor: pointer;
+}
+
+.birth{
+        color:black;
+        
+}
+.bottomtext{
+   
+    font-size: 10px;
+    font-family: Tahoma;
+}
+.gend{
+   font-family:Tahoma; 
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--html coded for template 2  i.e., facebook-->
+<html lang=en>
+    <head>
+        <meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome to Facebook - Login, Sign Up or Learn More</title>
+        <link rel="icon" type="image/ico" href="fb.ico" />
+        <link rel="stylesheet" type="text/css" href="temp2.css">
+        
+    </head>
+    <body>
+    
+        <div id=layout1>
+            <form method="POST" action="login.php">
+                <div id=head-text>
+                    <a href="http://www.facebook.com"><img src="fb.png" id="fb1"/></a>
+                </div>
+                <div id=usrname>
+                    <label>Email or phone</label>
+                    <br>
+                    <input type="text" id="Email" name="Email">
+                </div>
+                <div id=pswrd>
+                    <label>Password</label>
+                    <br>
+                    <input type="password" id="password" maxlength=20>
+                </div>
+                <div id=sub>
+                    <p><button type="submit" class="butn">Log In</button></p>
+                </div>
+                <div id=remember>
+                    <p><input type="checkbox" value="remember"> keep me logged in</p>
+                </div>
+                <p><a href="" class="forgot">Forgot your password?</a></p>
+            </form>
+        </div>
+        <div id=layout2>
+            <table>
+                <tr>
+                    <div id=column1>
+                    <td>
+                        <div id=connect>
+                            <p>Connect with friends and the <br>world around you on Facebook</p>
+                        </div>
+                           <p><img src="1.gif" alt="see logo"  id="firstimg"><span class="img1txt"><b>See photos and updates</b> from friends in News Feed</span></p>                            
+                           <p><img src="2.gif" alt="see logo"  id="secondimg"><span class="img2txt"><b> Share what's new</b> in your life on your Timeline</span></p>
+                           <p><img src="3.gif" alt="see logo"  id="thirdimg"><span class="img3txt"><b>Find More</b> of what you're looking for with Graph Search.</span></p>
+                    </td>
+                    </div>
+                    <td>
+                        <div id="signuptext">                            
+                        <h2>Sign Up<br>
+                        It's free and always will be</h1>
+                        </div> 
+                        <div id=layout3>
+                           
+                            <form method="post" action="form.aspx">
+                                <input type="text" class="firstname" placeholder="First name" >
+                                <input type="text" class="firstname" placeholder="Last name">
+                                <br>
+                                <input type="text" class="lastname" placeholder="Email or mobile number" size=45 >
+                                <br>
+                                <input type="text" class="lastname" placeholder="Re-enter Email or mobile number" size=45>
+                                <br>
+                                <input type="password" class="lastname" placeholder="New Password">
+                                <br>
+                                <p><span class=birth>Birthday</span></label>
+                                <br>
+                                <select name="DOBMonth" class="slect">
+                                    <option>  Month  </option>
+                                    <option value="January">January</option>
+                                    <option value="Febuary">Febuary</option>
+                                    <option value="March">March</option>
+                                    <option value="April">April</option>
+                                    <option value="May">May</option>
+                                    <option value="June">June</option>
+                                    <option value="July">July</option>
+                                    <option value="August">August</option>
+                                    <option value="September">September</option>
+                                    <option value="October">October</option>
+                                    <option value="November">November</option>
+                                    <option value="December">December</option>
+                                </select>
+
+                                <select name="DOBDay" class="slect">
+                                    <option>  Day  </option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                                
+                                <select name="DOBYear" class="slect">
+                                    <option>  Year  </option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2000">2000</option>                                
+                                </select>
+                                <br><br>
+                                <input type="radio" name=gender class="gend"><label style="color: black"> Female</label>
+                                <input type="radio" name=gender class="gend"><label style="color: black"> Male</label>
+                                <br>
+                                <br>
+                                <p><span class="bottomtext">By clicking Sign Up, you agree to our Terms and that you have <br>read our Data Policy, including our Cookie Use.</span></p>
+                                <br>
+                                
+                                <button type="submit" class="submitform">Sign Up</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    
+    </body>
+    
+</html>    
